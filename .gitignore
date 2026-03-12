@@ -1,4 +1,9 @@
 # Byte-compiled / optimized / DLL files
+*.parquet
+pipeline/.venv
+pipeline/.ipynb_checkpoints
+pipeline/uv.lock
+
 __pycache__/
 *.py[codz]
 *$py.class
