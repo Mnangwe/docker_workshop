@@ -38,6 +38,9 @@ services:
     image: postgres:18
     volumes:
       - kestra_postgres_data:/var/lib/postgresql
+    # --> To be visited
+    # env_file:
+    #   - .env_encoded
     environment:
       POSTGRES_DB: kestra
       POSTGRES_USER: kestra

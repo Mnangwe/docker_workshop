@@ -1,6 +1,7 @@
 # Byte-compiled / optimized / DLL files
 *.parquet
 pipeline/.venv
+pipeline/.env_encoded
 pipeline/.ipynb_checkpoints
 pipeline/uv.lock
 
